@@ -47,3 +47,4 @@ Start i3altlayout directly with [i3](https://i3wm.org/) by adding it to your con
 exec --no-startup-id "killall i3altlayout"
 exec --no-startup-id "i3altlayout"
 ```
+(don't forget to add the killall, if you don't do it you will keep spawning a new procces on each restart of i3)

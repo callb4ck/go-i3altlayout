@@ -44,5 +44,6 @@ if you only wish to build it without installing it, use the `build.sh`
 Start i3altlayout directly with [i3](https://i3wm.org/) by adding it to your config file
 (usually under `~/.config/i3/config`):
 ```
+exec --no-startup-id "killall i3altlayout"
 exec --no-startup-id "i3altlayout"
 ```

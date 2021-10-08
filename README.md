@@ -1,3 +1,6 @@
+# Deprecation warning
+This program is no longer maintained and it's also bugged
+
 # go-i3altlayout
 A port of [i3altlayout](https://github.com/deadc0de6/i3altlayout) in Go using [i3ipc-go](https://github.com/mdirkse/i3ipc-go).
 
